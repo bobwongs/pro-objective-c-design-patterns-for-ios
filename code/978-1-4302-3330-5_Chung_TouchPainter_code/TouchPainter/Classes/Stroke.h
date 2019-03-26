@@ -17,7 +17,7 @@
   @private
   UIColor *color_;
   CGFloat size_;
-  NSMutableArray *children_;
+  NSMutableArray<id<Mark>> *children_;
 }
 
 @property (nonatomic, retain) UIColor *color;
